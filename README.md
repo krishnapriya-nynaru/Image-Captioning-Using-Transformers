@@ -11,22 +11,23 @@ The core of the BLIP model consists of:
 
 **Cross-Modality Attention:** BLIP’s architecture integrates cross-modal attention, meaning it effectively models the relationship between image features and text, helping the model generate more accurate and descriptive captions. This attention mechanism enables the model to align the textual output with specific image regions, ensuring the caption reflects the image content correctly.
 
-![Alt Text](https://github.com/krishnapriya-nynaru/Image-Captioning-Using-Transformers/blob/main/Image_Captioning_Using_Transformers/Model/model.gif)
 
 ### Model Overview: BLIP (Bootstrapping Language-Image Pre-training)
 BLIP is a vision-language model developed by Salesforce Research, designed to handle a variety of vision and language tasks, including image captioning, visual question answering (VQA), and image-text retrieval. It leverages a large-scale pre-training paradigm to align visual and linguistic modalities, allowing it to understand and generate language from visual input. The architecture is built on top of the popular transformer model, widely recognized for its ability to handle complex, multi-modal data.
 
-How BLIP Works?
+**How BLIP Works?**
 
 BLIP operates by training on large datasets containing paired images and texts, allowing it to learn:
 
-Object Recognition: Identifying objects and elements within an image.
+***Object Recognition:*** Identifying objects and elements within an image.
 
-Semantic Understanding: Understanding relationships between objects and contextual information.
+***Semantic Understanding:*** Understanding relationships between objects and contextual information.
 
-Text Generation: Generating grammatically correct and contextually appropriate captions based on the visual input.
+***Text Generation:*** Generating grammatically correct and contextually appropriate captions based on the visual input.
 
 By doing so, BLIP captures both the visual aspects of images and how they relate to natural language, generating fluent and relevant image descriptions.
+
+![Alt Text](https://github.com/krishnapriya-nynaru/Image-Captioning-Using-Transformers/blob/main/Image_Captioning_Using_Transformers/Model/model.gif)
 
 ### Training Details
 **Model Type:** Vision-Language model using Transformer architecture (BLIP).
