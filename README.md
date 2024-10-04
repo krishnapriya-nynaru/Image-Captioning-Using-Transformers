@@ -48,3 +48,13 @@ By doing so, BLIP captures both the visual aspects of images and how they relate
 
 **Model Variants:** BLIP-Base, BLIP-Large, and BLIP-Huge, with differing number of layers and model capacity for handling more complex tasks.
 
+### Results
+Below are some results on test Images:-
+
+![alt text](https://github.com/krishnapriya-nynaru/Image-Captioning-Using-Transformers/blob/main/Image_Captioning_Using_Transformers/output/output_image_1.jpg)
+
+Below are some results on test Videos:-
+
+![alt text](https://github.com/krishnapriya-nynaru/Image-Captioning-Using-Transformers/blob/main/Image_Captioning_Using_Transformers/output/output_video_4.jpg)
+
+![alt text](https://github.com/krishnapriya-nynaru/Image-Captioning-Using-Transformers/blob/main/Image_Captioning_Using_Transformers/output/output_video_11.jpg)
