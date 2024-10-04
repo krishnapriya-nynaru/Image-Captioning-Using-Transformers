@@ -11,10 +11,6 @@ The core of the BLIP model consists of:
 
 **Cross-Modality Attention:** BLIP’s architecture integrates cross-modal attention, meaning it effectively models the relationship between image features and text, helping the model generate more accurate and descriptive captions. This attention mechanism enables the model to align the textual output with specific image regions, ensuring the caption reflects the image content correctly.
 
-<div align="center">
-    <img src="(https://github.com/krishnapriya-nynaru/Image-Captioning-Using-Transformers/blob/main/Image_Captioning_Using_Transformers/Model/model.gif" alt="Application Demo" />
-</div>
-
 ![Alt Text](https://github.com/krishnapriya-nynaru/Image-Captioning-Using-Transformers/blob/main/Image_Captioning_Using_Transformers/Model/model.gif)
 
 ### Model Overview: BLIP (Bootstrapping Language-Image Pre-training)
