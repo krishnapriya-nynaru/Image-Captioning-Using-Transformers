@@ -62,12 +62,28 @@ By doing so, BLIP captures both the visual aspects of images and how they relate
 5. Navigate to the project directory: 
    ```bash
    cd Image-Captioning-Using-Transformers
-
-#### Inference on image
-6. Run Image Captioning script:
+## Inference Instructions
+You can run the script with specified paths or use default paths for image and video inputs. Below are the commands for both options:
+### Inference on image
+#### 1. Image Folder
+- ***Specify Path***:
+   ```bash
+   python image_caption.py --method image --path /path/to/your/image_folder
+- ***Default Path***(uses test_images folder)
     ```bash
-    python image_caption.py
-
+    python image_caption.py --method image
+### Inference on Video/webcam
+#### 2. Video File
+- ***Specify Path***:
+   ```bash
+   python image_caption.py --method video --path /path/to/your/video_file
+- ***Default Path***(uses test_videos folder)
+    ```bash
+    python image_caption.py --method video
+#### 3. Webcam
+-  ***Start webcam***
+    ```bash
+    python image_caption.py --method webcam
 ### Results
 Below are some results on test Images:-
 
