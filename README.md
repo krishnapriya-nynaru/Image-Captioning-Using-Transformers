@@ -52,16 +52,18 @@ By doing so, BLIP captures both the visual aspects of images and how they relate
 1. For creating the Conda environment, follow steps 1-3 from the [***Usage Instructions in this link***](https://github.com/krishnapriya-nynaru/Dlib-Face-Recognition?tab=readme-ov-file#usage).
 2. Clone the repository: 
    ```bash
-   ubuntu@user:git clone https://github.com/krishnapriya-nynaru/Image-Captioning-Using-Transformers.git
+   git clone https://github.com/krishnapriya-nynaru/Image-Captioning-Using-Transformers.git
 3. Unzip the downloaded file: 
    ```bash
-   ubuntu@user:unzip Image-Captioning-Using-Transformers.git
+   unzip Image-Captioning-Using-Transformers.git
 4. Install the required packages: 
    ```bash
-   ubuntu@user:pip install -r requirements.txt 
+   pip install -r requirements.txt 
 5. Navigate to the project directory: 
    ```bash
-   ubuntu@user:cd Image-Captioning-Using-Transformers
+   cd Image-Captioning-Using-Transformers
+
+#### Inference on image
 6. Run Image Captioning script:
     ```bash
     python image_caption.py
