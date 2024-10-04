@@ -11,6 +11,12 @@ The core of the BLIP model consists of:
 
 **Cross-Modality Attention:** BLIP’s architecture integrates cross-modal attention, meaning it effectively models the relationship between image features and text, helping the model generate more accurate and descriptive captions. This attention mechanism enables the model to align the textual output with specific image regions, ensuring the caption reflects the image content correctly.
 
+<div align="center">
+    <img src="(https://github.com/krishnapriya-nynaru/Image-Captioning-Using-Transformers/blob/main/Image_Captioning_Using_Transformers/Model/model.giff" alt="Application Demo" />
+</div>
+
+![Alt Text](https://github.com/krishnapriya-nynaru/Image-Captioning-Using-Transformers/blob/main/Image_Captioning_Using_Transformers/Model/model.gif)
+
 ### Model Overview: BLIP (Bootstrapping Language-Image Pre-training)
 BLIP is a vision-language model developed by Salesforce Research, designed to handle a variety of vision and language tasks, including image captioning, visual question answering (VQA), and image-text retrieval. It leverages a large-scale pre-training paradigm to align visual and linguistic modalities, allowing it to understand and generate language from visual input. The architecture is built on top of the popular transformer model, widely recognized for its ability to handle complex, multi-modal data.
 
@@ -85,12 +91,16 @@ You can run the script with specified paths or use default paths for image and v
     ```bash
     python image_caption.py --method webcam
 ### Results
-Below are some results on test Images:-
+***Below are some results on test Images:-***
 
 ![alt text](https://github.com/krishnapriya-nynaru/Image-Captioning-Using-Transformers/blob/main/Image_Captioning_Using_Transformers/output/output_image_1.jpg)
 
-Below are some results on test Videos:-
+***Below are some results on test Videos:-***
 
 ![alt text](https://github.com/krishnapriya-nynaru/Image-Captioning-Using-Transformers/blob/main/Image_Captioning_Using_Transformers/output/output_video_4.jpg)
 
 ![alt text](https://github.com/krishnapriya-nynaru/Image-Captioning-Using-Transformers/blob/main/Image_Captioning_Using_Transformers/output/output_video_11.jpg)
+
+
+### References
+- https://huggingface.co/Salesforce/blip-image-captioning-base
